@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* ===== Nav Bar Styles ===== */
+
+nav {
+	display: inline-block;
+}
+
+ul#list-nav {
+  list-style:none;
+  padding:0;
+  width:525px;
+}
+
+ul#list-nav li {
+  display:inline;
+}
+
+ul#list-nav li a {
+  text-decoration:none;
+  padding:5px 0;
+  width:100px;
+  background:#485e49;
+  color:#eee;
+  float:left;
+  text-align:center;
+  border-left:1px solid #fff;
+}
+
+ul#list-nav li a:hover {
+  background:#a2b3a1;
+  color:#000;
+}
+
+/* ===== End Nav Bar Styles ===== */
+
+p {
+  font-size: 1.3em;
+  line-height: 1.5;
+}
